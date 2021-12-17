@@ -1,4 +1,63 @@
 body {
     height: 97vh;
-    background: radial-gradient(ellipse at 10%, white, indigo);
+    background: radial-gradient(ellipse, rgb(65, 48, 216), rgb(56, 37, 226), rgb(28, 6, 226), rgb(17, 6, 112), black);
+}
+.character {
+    margin-top: 1%;
+    margin-left: 4%;
+    position: absolute;
+    padding: 1px;
+    border: 2px solid red;
+    width: 10.4vw;
+    height: 32%;
+}
+.character :hover {
+    transform: scale(1.1);
+}
+.character.aaa {
+    margin-left: 15%;
+}
+.character.karlov {
+    margin-left: 26%;
+}
+.character.veremchuk {
+    margin-left: 37%;
+}
+.character.ira {
+    margin-left: 48%;
+}
+.character.koziy {
+    margin-top: 17.5%;
+}
+.character.nazik {
+    margin-top: 17.5%;
+    margin-left: 15%;
+}
+.character.yegory {
+    margin-top: 17.5%;
+    margin-left: 26%;
+}
+.character.ya {
+    margin-top: 17.5%;
+    margin-left: 37%;
+}
+.character.zhuk {
+    margin-top: 17.5%;
+    margin-left: 48%;
+}
+#info {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 70%;
+    font-size: 48pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+#we {
+    position: absolute;
+    background: rgb(140, 119, 219);
+    margin-left: 70%;
+    margin-top: 15%;
+    font-size: 24pt;
+    font-family: 'Courier New', Courier, monospace;
 }
