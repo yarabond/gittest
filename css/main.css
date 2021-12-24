@@ -20,12 +20,20 @@ body {
 }
 .character {
     background: chocolate;
+    flex-direction: row;
 }
 .cardblock div {
+    display: flex;
     padding: 20px;
     border: 1px solid black;
 }
-.cardblock div:hover {
+.photo {
+    flex-basis: auto;
+}
+.statistic {
+    flex-basis: auto;
+}
+.photo:hover {
     transform: scale(1.1);
 }
 #info {
